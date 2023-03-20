@@ -1,0 +1,12 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+		'event':'OrderComplete',
+    'order_value':'variable for order value',
+    'order_id':'order_id',
+    'currency':'currency variable',
+    'enhanced_conversion_data': {
+      "email": 'yourEmailVariable'
+    }
+});
+</script>
