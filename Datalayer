@@ -2,7 +2,7 @@
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
     'event':'purchase',
-    'order_value':'35.43', // Total transaction value (incl. tax and shipping)
+    'order_value': 35.43, // Total transaction value (incl. tax and shipping)
     'order_id':'12345',
     'currency':'currency variable',
     'enhanced_conversion_data': {
